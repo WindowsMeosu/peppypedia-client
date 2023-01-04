@@ -1,6 +1,5 @@
 {
-  "name": "peppypedia-cli",
-  "productName": "peppypedia-cli",
+  "name": "@windowsmeosu/peppypedia-client",
   "description": "peppypedia-client test",
   "keywords": [],
   "main": "./main.js",
@@ -9,8 +8,10 @@
   "scripts": {
     "start": "electron ."
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "windowsmeosu/peppypedia-cli": "1.00"
+    
+   
 "publishConfig": {
   "registry": "https://npm.pkg.github.com",
   "repository":"https://github.com/windowsmeosu/peppypedia"
