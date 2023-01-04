@@ -8,7 +8,17 @@
   "scripts": {
     "start": "electron ."
   },
-  "dependencies": {
-    "github:windowsmeosu/peppypedia-client": "1.00"
-    
-  }
+  "devDependencies": {
+    "prettier": "^2.0.0",
+},
+"prettier": {
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true,
+  "bracketSpacing": false,
+  "semi": false,
+  "trailingComma": "none"
+},
+"xo": {
+  "prettier": true
+}
