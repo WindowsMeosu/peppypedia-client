@@ -1,25 +1,51 @@
-{ "private": false,
-  "name": "peppypedia-client",
-  "description": "peppypedia-client test",
+{
+  "private": false,
+  "name": "peppypedia-cli",
+  "description": "peppypedia-client alpha test",
   "repository": "github:windowsmeosu/peppypedia-client",
+  "keywords": ["milo, peppypedia, alpha test, electron"],
   "main": "./main.js",
   "version": "1.0.1",
   "author": "MiloTilo",
   "scripts": {
-    "start": "electron ."
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
   },
+  "dependencies": {},
   "devDependencies": {
-    "prettier": "^2.0.0"
-},
-"prettier": {
-  "tabWidth": 4,
-  "useTabs": false,
-  "singleQuote": true,
-  "bracketSpacing": false,
-  "semi": true,
-  "trailingComma": "none"
-},
-"xo": {
-  "prettier": true
+    "electron": "22.0.0",
+    "@electron-forge/cli": "^6.0.0-beta.64",
+    "@electron-forge/maker-deb": "^6.0.0-beta.64",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.64",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.64",
+    "@electron-forge/maker-zip": "^6.0.0-beta.64"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel"
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "license": "MIT"
 }
- }
