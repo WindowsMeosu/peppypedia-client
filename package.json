@@ -1,5 +1,5 @@
-{
-  "name": "peppypedia-cli",
+{ "private": false,
+  "name": "peppypedia-client",
   "description": "peppypedia-client test",
   "repository": "github:windowsmeosu/peppypedia-client",
   "main": "./main.js",
@@ -12,7 +12,7 @@
     "prettier": "^2.0.0"
 },
 "prettier": {
-  "tabWidth": 2,
+  "tabWidth": 4,
   "useTabs": false,
   "singleQuote": true,
   "bracketSpacing": false,
@@ -22,3 +22,4 @@
 "xo": {
   "prettier": true
 }
+ }
