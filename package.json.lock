@@ -1,9 +1,8 @@
-{
-  "name": "Milo",
-  "lockfileVersion": >= 1,
+
+  "name": "windowsmeosu",
+  "lockfileVersion": 2,
   "requires": true,
   "packages": {
-
     "node_modules/peppypedia-client": {
       "version": "1.0.0",
       "resolved": "https://registry.npmjs.org/peppypedia-client/-/peppypedia-client-1.0.0.tgz",
