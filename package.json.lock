@@ -4,7 +4,7 @@
   "packages": {
     "node_modules/peppypedia-client": {
       "version": "1.0.1",
-      "resolved": "https://registry.npmjs.org/peppypedia-client/-/peppypedia-client-1.0.0.tgz",
+      "resolved": "https://registry.npmjs.org/peppypedia-client/-/peppypedia-client-1.0.1.tgz",
       "integrity": "sha512-f1lrBOToCM2nf00EOFKRwAqQnTA8OsWz8jezaYdQWwnPVk+inYLtO9piW8bQ21jb1j1v1DlK7A7CB+vWPJN1EQ=="
     }
   }

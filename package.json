@@ -16,7 +16,7 @@
   "useTabs": false,
   "singleQuote": true,
   "bracketSpacing": false,
-  "semi": false,
+  "semi": true,
   "trailingComma": "none"
 },
 "xo": {
