@@ -1,0 +1,14 @@
+{
+  "name": "peppypedia-cli",
+  "productName": "peppypedia-cli",
+  "description": "peppypedia-client test",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "MiloTilo",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
